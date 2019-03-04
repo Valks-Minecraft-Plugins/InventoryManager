@@ -10,7 +10,7 @@ import org.bukkit.event.player.PlayerRespawnEvent;
 import com.inventorymanager.utils.Utils;
 
 public class UpdateInventory implements Listener {
-	public static int minSlots = 5;
+	public static int minSlots = 9;
 	
 	@EventHandler
 	private void playerLevelChangeEvent(PlayerLevelChangeEvent e) {
